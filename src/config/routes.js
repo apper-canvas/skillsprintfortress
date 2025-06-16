@@ -4,7 +4,7 @@ import Goals from '@/components/pages/Goals';
 import TopicDetail from '@/components/pages/TopicDetail';
 import LessonView from '@/components/pages/LessonView';
 import Quiz from '@/components/pages/Quiz';
-
+import Onboarding from '@/components/pages/Onboarding';
 export const routes = {
   home: {
     id: 'home',
@@ -29,6 +29,14 @@ export const routes = {
     icon: 'Target',
     component: Goals,
     showInNav: true
+},
+  onboarding: {
+    id: 'onboarding',
+    label: 'Onboarding',
+    path: '/onboarding',
+    icon: 'UserPlus',
+    component: Onboarding,
+    showInNav: false
   },
   topicDetail: {
     id: 'topicDetail',

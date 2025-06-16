@@ -312,6 +312,77 @@ const userService = {
       return updatedUser
     } catch (error) {
       console.error("Error setting daily goal:", error)
+throw error
+    }
+  },
+
+  async createCleanUser(selectedCategories = []) {
+    try {
+      const { ApperClient } = window.ApperSDK
+      const apperClient = new ApperClient({
+        apperProjectId: import.meta.env.VITE_APPER_PROJECT_ID,
+        apperPublicKey: import.meta.env.VITE_APPER_PUBLIC_KEY
+      })
+      
+      const params = {
+        records: [
+          {
+            Name: 'New User',
+            current_level: 1,
+            total_xp: 0,
+            current_streak: 0,
+            daily_goal: 2,
+            completed_lessons: '',
+            badges: '',
+            daily_progress: 0,
+            last_lesson_date: new Date().toISOString().split('T')[0],
+            preferred_categories: selectedCategories.join(',')
+          }
+        ]
+      }
+      
+      const response = await apperClient.createRecord('User1', params)
+      
+      if (!response.success) {
+        console.error(response.message)
+        toast.error(response.message)
+        throw new Error('Failed to create user')
+      }
+      
+      if (response.results && response.results[0].success) {
+        const created = response.results[0].data
+        toast.success('Account created successfully!')
+        return {
+          id: created.Id,
+          currentLevel: created.current_level,
+          totalXP: created.total_xp,
+          currentStreak: created.current_streak,
+          dailyGoal: created.daily_goal,
+          completedLessons: [],
+          badges: [],
+          dailyProgress: created.daily_progress,
+          lastLessonDate: created.last_lesson_date,
+          preferredCategories: selectedCategories
+        }
+      }
+      
+      throw new Error('Failed to create clean user')
+    } catch (error) {
+      console.error("Error creating clean user:", error)
+      throw error
+    }
+  },
+
+  async updatePreferences(categories) {
+    try {
+      const updatedUser = await this.updateUser({
+        preferredCategories: categories
+      })
+      
+      toast.success('Preferences updated successfully!')
+      return updatedUser
+    } catch (error) {
+      console.error("Error updating preferences:", error)
       throw error
     }
   }

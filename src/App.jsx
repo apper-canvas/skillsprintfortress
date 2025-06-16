@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes, useNavigate, Navigate } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes, useNavigate } from "react-router-dom";
 import { Provider, useDispatch, useSelector } from "react-redux";
 import { ToastContainer } from "react-toastify";
 import { store } from "@/store";
@@ -49,7 +49,7 @@ function AppContent() {
                            currentPath.includes('/callback') || currentPath.includes('/error') || 
                            currentPath.includes('/prompt-password') || currentPath.includes('/reset-password')
         
-        if (user) {
+if (user) {
           // User is authenticated
           if (redirectPath) {
             navigate(redirectPath)
@@ -57,10 +57,20 @@ function AppContent() {
             if (!currentPath.includes('/login') && !currentPath.includes('/signup')) {
               navigate(currentPath)
             } else {
-              navigate('/home')
+              // Check if user came from signup to trigger onboarding
+              if (currentPath.includes('/signup')) {
+                navigate('/onboarding')
+              } else {
+                navigate('/home')
+              }
             }
           } else {
-            navigate('/home')
+            // Check if user came from signup to trigger onboarding
+            if (currentPath.includes('/signup')) {
+              navigate('/onboarding')
+            } else {
+              navigate('/home')
+            }
           }
           // Store user information in Redux
           dispatch(setUser(JSON.parse(JSON.stringify(user))))
@@ -123,9 +133,23 @@ function AppContent() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/callback" element={<Callback />} />
-          <Route path="/error" element={<ErrorPage />} />
+<Route path="/error" element={<ErrorPage />} />
           <Route path="/prompt-password/:appId/:emailAddress/:provider" element={<PromptPassword />} />
           <Route path="/reset-password/:appId/:fields" element={<ResetPassword />} />
+          <Route path="/onboarding" element={
+            <div className="h-screen flex flex-col overflow-hidden bg-white">
+              <div className="flex-1">
+                {(() => {
+                  const onboardingRoute = routeArray.find(r => r.id === 'onboarding');
+                  if (onboardingRoute) {
+                    const OnboardingComponent = onboardingRoute.component;
+                    return <OnboardingComponent />;
+                  }
+                  return null;
+                })()}
+              </div>
+            </div>
+          } />
           <Route path="/" element={<Layout />}>
             <Route index element={<Navigate to="/home" replace />} />
             {routeArray.map(route => (
