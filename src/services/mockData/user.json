@@ -1,0 +1,22 @@
+{
+  "id": "user_001",
+  "currentLevel": 3,
+  "totalXP": 2450,
+  "currentStreak": 7,
+  "dailyGoal": 2,
+  "completedLessons": [
+    "prod_001",
+    "prod_002",
+    "comm_001",
+    "nutr_001",
+    "invest_001"
+  ],
+  "badges": [
+    "first_lesson",
+    "streak_3",
+    "productivity_starter"
+  ],
+  "dailyProgress": 1,
+  "lastLessonDate": "2024-01-15",
+  "preferredCategories": ["productivity", "communication"]
+}

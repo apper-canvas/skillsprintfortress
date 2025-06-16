@@ -1,0 +1,319 @@
+[
+  {
+    "id": "prod_001",
+    "category": "productivity",
+    "title": "The 2-Minute Rule",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Master the art of immediate action with the 2-minute rule - a simple principle that can transform your productivity."
+      },
+      {
+        "type": "concept",
+        "title": "What is the 2-Minute Rule?",
+        "text": "If a task takes less than 2 minutes to complete, do it immediately instead of adding it to your to-do list."
+      },
+      {
+        "type": "example",
+        "title": "Real-World Applications",
+        "items": [
+          "Reply to simple emails immediately",
+          "File documents as soon as you're done with them",
+          "Clean up your workspace before leaving",
+          "Make quick phone calls right away"
+        ]
+      },
+      {
+        "type": "action",
+        "title": "Your Challenge",
+        "text": "For the next 24 hours, apply the 2-minute rule to every small task you encounter. Notice how it reduces your mental clutter."
+      }
+    ],
+    "xpReward": 100,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "prod_002",
+    "category": "productivity",
+    "title": "Time Blocking Basics",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Learn how to take control of your calendar and create focused work sessions through strategic time blocking."
+      },
+      {
+        "type": "concept",
+        "title": "What is Time Blocking?",
+        "text": "Time blocking is the practice of scheduling specific time slots for different types of work or activities on your calendar."
+      },
+      {
+        "type": "benefits",
+        "title": "Why It Works",
+        "items": [
+          "Prevents multitasking and context switching",
+          "Ensures important work gets dedicated time",
+          "Creates boundaries for focused work",
+          "Helps estimate how long tasks actually take"
+        ]
+      },
+      {
+        "type": "steps",
+        "title": "How to Start",
+        "items": [
+          "Review your typical week and identify recurring tasks",
+          "Group similar activities together",
+          "Block time for deep work during your peak energy hours",
+          "Include buffer time between blocks"
+        ]
+      }
+    ],
+    "xpReward": 120,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "prod_003",
+    "category": "productivity",
+    "title": "Energy Management",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Discover how managing your energy, not just your time, is the key to sustained high performance."
+      },
+      {
+        "type": "concept",
+        "title": "The Four Types of Energy",
+        "text": "Physical, emotional, mental, and spiritual energy all contribute to your overall capacity to perform."
+      },
+      {
+        "type": "strategy",
+        "title": "Energy Optimization Techniques",
+        "items": [
+          "Schedule demanding tasks during your peak energy hours",
+          "Take regular breaks to prevent energy depletion",
+          "Match tasks to your current energy level",
+          "Build energy renewal practices into your routine"
+        ]
+      }
+    ],
+    "xpReward": 150,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "comm_001",
+    "category": "communication",
+    "title": "Active Listening Fundamentals",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Transform your relationships and professional interactions by mastering the art of truly listening to others."
+      },
+      {
+        "type": "concept",
+        "title": "What is Active Listening?",
+        "text": "Active listening means fully concentrating on, understanding, and responding thoughtfully to the speaker."
+      },
+      {
+        "type": "techniques",
+        "title": "Key Techniques",
+        "items": [
+          "Give your full attention - put away distractions",
+          "Use body language to show you're engaged",
+          "Ask clarifying questions",
+          "Paraphrase what you've heard to confirm understanding"
+        ]
+      },
+      {
+        "type": "practice",
+        "title": "Daily Practice",
+        "text": "In your next conversation, focus entirely on the other person. Notice how it changes the quality of your interaction."
+      }
+    ],
+    "xpReward": 110,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "comm_002",
+    "category": "communication",
+    "title": "Difficult Conversations",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Learn to navigate challenging conversations with confidence and maintain relationships while addressing important issues."
+      },
+      {
+        "type": "framework",
+        "title": "The PEACE Framework",
+        "items": [
+          "Prepare: Know your goals and desired outcomes",
+          "Empathy: Try to understand their perspective",
+          "Acknowledge: Validate their feelings and concerns",
+          "Collaborate: Work together toward solutions",
+          "Evaluate: Follow up on agreements made"
+        ]
+      },
+      {
+        "type": "tips",
+        "title": "Key Success Strategies",
+        "items": [
+          "Choose the right time and private setting",
+          "Use 'I' statements to express your concerns",
+          "Stay calm and avoid defensive reactions",
+          "Focus on specific behaviors, not personality"
+        ]
+      }
+    ],
+    "xpReward": 140,
+    "difficulty": "intermediate"
+  },
+  {
+    "id": "nutr_001",
+    "category": "nutrition",
+    "title": "Meal Prep Basics",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Save time, money, and improve your nutrition by mastering the fundamentals of meal preparation."
+      },
+      {
+        "type": "benefits",
+        "title": "Why Meal Prep Works",
+        "items": [
+          "Saves 2-3 hours per week on daily cooking",
+          "Reduces food waste and grocery costs",
+          "Ensures consistent nutrition throughout the week",
+          "Eliminates decision fatigue around meals"
+        ]
+      },
+      {
+        "type": "strategy",
+        "title": "Simple Start Strategy",
+        "items": [
+          "Choose one day per week for prep",
+          "Start with just lunch or dinner, not all meals",
+          "Prepare components, not complete meals",
+          "Invest in quality storage containers"
+        ]
+      },
+      {
+        "type": "action",
+        "title": "This Week's Challenge",
+        "text": "Prep just your work lunches for 3 days. Cook a grain, protein, and chop vegetables to mix and match."
+      }
+    ],
+    "xpReward": 130,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "nutr_002",
+    "category": "nutrition",
+    "title": "Hydration Habits",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Discover how proper hydration affects everything from energy levels to brain function and learn simple strategies to drink more water."
+      },
+      {
+        "type": "science",
+        "title": "Why Hydration Matters",
+        "text": "Even mild dehydration (2% of body weight) can impair mood, memory, and brain performance."
+      },
+      {
+        "type": "signs",
+        "title": "Signs of Dehydration",
+        "items": [
+          "Fatigue and low energy",
+          "Difficulty concentrating",
+          "Headaches",
+          "Dark yellow urine"
+        ]
+      },
+      {
+        "type": "habits",
+        "title": "Easy Hydration Habits",
+        "items": [
+          "Drink a glass of water upon waking",
+          "Keep water visible on your desk",
+          "Set hourly reminders on your phone",
+          "Flavor water with fruit or herbs"
+        ]
+      }
+    ],
+    "xpReward": 100,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "invest_001",
+    "category": "investing",
+    "title": "Compound Interest Basics",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Understand the most powerful force in finance and how starting early can dramatically impact your financial future."
+      },
+      {
+        "type": "concept",
+        "title": "What is Compound Interest?",
+        "text": "Compound interest is when you earn interest not just on your initial investment, but also on all the interest you've previously earned."
+      },
+      {
+        "type": "example",
+        "title": "The Power of Time",
+        "text": "Investing $200/month starting at age 25 at 7% annual return = $1.3M by age 65. Starting at age 35 = $610K. The 10-year head start is worth $690K!"
+      },
+      {
+        "type": "action",
+        "title": "Your Next Step",
+        "text": "Calculate your own compound interest scenario using online calculators. See how different amounts and time horizons affect your results."
+      }
+    ],
+    "xpReward": 120,
+    "difficulty": "beginner"
+  },
+  {
+    "id": "invest_002",
+    "category": "investing",
+    "title": "Emergency Fund Essentials",
+    "duration": 5,
+    "content": [
+      {
+        "type": "intro",
+        "text": "Build financial security and peace of mind by creating an emergency fund that protects you from life's unexpected events."
+      },
+      {
+        "type": "purpose",
+        "title": "Why You Need an Emergency Fund",
+        "items": [
+          "Avoid going into debt for unexpected expenses",
+          "Reduce financial stress and anxiety",
+          "Maintain your investment strategy during tough times",
+          "Have flexibility to take career risks"
+        ]
+      },
+      {
+        "type": "guidelines",
+        "title": "Emergency Fund Guidelines",
+        "items": [
+          "Save 3-6 months of living expenses",
+          "Keep it in a high-yield savings account",
+          "Only use for true emergencies",
+          "Replenish immediately after use"
+        ]
+      },
+      {
+        "type": "strategy",
+        "title": "Building Your Fund",
+        "text": "Start with a goal of $1,000, then gradually build to one month of expenses, then three months. Automate transfers to make it effortless."
+      }
+    ],
+    "xpReward": 110,
+    "difficulty": "beginner"
+  }
+]

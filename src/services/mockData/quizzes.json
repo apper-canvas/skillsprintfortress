@@ -1,0 +1,217 @@
+[
+  {
+    "id": "quiz_prod_001",
+    "lessonId": "prod_001",
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "According to the 2-minute rule, what should you do with tasks that take less than 2 minutes?",
+        "options": [
+          "Add them to your to-do list for later",
+          "Do them immediately",
+          "Delegate them to someone else",
+          "Schedule them for tomorrow"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 2-minute rule states that if a task takes less than 2 minutes, you should do it immediately instead of adding it to your to-do list."
+      },
+      {
+        "id": "q2",
+        "question": "Which of these is NOT a good example of applying the 2-minute rule?",
+        "options": [
+          "Replying to a simple email",
+          "Writing a detailed project proposal",
+          "Filing a document",
+          "Making a quick phone call"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Writing a detailed project proposal would take much longer than 2 minutes, so it doesn't qualify for the 2-minute rule."
+      },
+      {
+        "id": "q3",
+        "question": "What is the main benefit of following the 2-minute rule?",
+        "options": [
+          "It helps you work faster",
+          "It reduces mental clutter from small tasks",
+          "It makes you more organized",
+          "It saves money"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The main benefit is reducing mental clutter by preventing small tasks from accumulating on your to-do list."
+      }
+    ]
+  },
+  {
+    "id": "quiz_prod_002",
+    "lessonId": "prod_002",
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is time blocking?",
+        "options": [
+          "Avoiding distractions during work",
+          "Scheduling specific time slots for different activities",
+          "Working in short bursts with breaks",
+          "Blocking out interruptions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Time blocking is the practice of scheduling specific time slots for different types of work or activities on your calendar."
+      },
+      {
+        "id": "q2",
+        "question": "When should you schedule your most demanding tasks?",
+        "options": [
+          "At the end of the day",
+          "During lunch breaks",
+          "During your peak energy hours",
+          "First thing in the morning always"
+        ],
+        "correctAnswer": 2,
+        "explanation": "You should schedule demanding tasks during your peak energy hours when you can perform at your best."
+      },
+      {
+        "id": "q3",
+        "question": "Why should you include buffer time between time blocks?",
+        "options": [
+          "To have time for social media",
+          "To account for tasks running over or transitions",
+          "To take longer breaks",
+          "To avoid working too hard"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Buffer time helps account for tasks that might run over their scheduled time and provides transition time between different activities."
+      }
+    ]
+  },
+  {
+    "id": "quiz_comm_001",
+    "lessonId": "comm_001",
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What is the most important aspect of active listening?",
+        "options": [
+          "Thinking about your response while they talk",
+          "Giving your full attention to the speaker",
+          "Taking detailed notes",
+          "Nodding frequently"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Active listening requires giving your full attention to the speaker and truly focusing on understanding their message."
+      },
+      {
+        "id": "q2",
+        "question": "Which technique helps confirm you understood the speaker correctly?",
+        "options": [
+          "Interrupting with questions",
+          "Paraphrasing what you heard",
+          "Agreeing with everything they say",
+          "Changing the subject"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paraphrasing what you've heard back to the speaker helps confirm your understanding and shows you were listening."
+      },
+      {
+        "id": "q3",
+        "question": "What should you do with distractions during a conversation?",
+        "options": [
+          "Check them quickly without the speaker noticing",
+          "Put them away completely",
+          "Multitask efficiently",
+          "Address them immediately"
+        ],
+        "correctAnswer": 1,
+        "explanation": "To practice active listening, you should put away all distractions and give the speaker your undivided attention."
+      }
+    ]
+  },
+  {
+    "id": "quiz_nutr_001",
+    "lessonId": "nutr_001",
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "How much time can meal prep typically save per week?",
+        "options": [
+          "30 minutes",
+          "1 hour",
+          "2-3 hours",
+          "5-6 hours"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Meal prep can typically save 2-3 hours per week that would otherwise be spent on daily cooking and meal decisions."
+      },
+      {
+        "id": "q2",
+        "question": "What's the best way to start meal prepping if you're a beginner?",
+        "options": [
+          "Prep all meals for the entire week",
+          "Start with just one meal type for a few days",
+          "Only prep snacks",
+          "Prep for a full month"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Beginners should start small by prepping just lunch or dinner for a few days to build the habit without feeling overwhelmed."
+      },
+      {
+        "id": "q3",
+        "question": "What's a key benefit of preparing components rather than complete meals?",
+        "options": [
+          "It takes less time",
+          "It's more nutritious",
+          "It provides variety and flexibility",
+          "It costs less money"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Preparing components (grains, proteins, vegetables) separately allows you to mix and match throughout the week, providing variety and preventing meal fatigue."
+      }
+    ]
+  },
+  {
+    "id": "quiz_invest_001",
+    "lessonId": "invest_001",
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1",
+        "question": "What makes compound interest so powerful?",
+        "options": [
+          "You earn interest on your initial investment only",
+          "You earn interest on both your investment and previous interest",
+          "It guarantees high returns",
+          "It's risk-free"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Compound interest is powerful because you earn returns not just on your original investment, but also on all the interest/returns you've previously earned."
+      },
+      {
+        "id": "q2",
+        "question": "In the example given, how much more money does someone have by starting to invest at 25 vs. 35?",
+        "options": [
+          "$500,000",
+          "$690,000",
+          "$1 million",
+          "$200,000"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Starting at age 25 results in $1.3M vs. $610K at age 35 - a difference of $690,000 from just 10 extra years of compound growth."
+      },
+      {
+        "id": "q3",
+        "question": "What is the most important factor in maximizing compound interest?",
+        "options": [
+          "Investing large amounts",
+          "Choosing the highest risk investments",
+          "Starting early and giving time for growth",
+          "Checking your investments daily"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Time is the most crucial factor in compound interest - starting early allows more time for your money to grow exponentially."
+      }
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "first_lesson",
+    "name": "First Steps",
+    "description": "Completed your very first lesson",
+    "icon": "Award",
+    "requirement": {
+      "type": "lessons_completed",
+      "value": 1
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "streak_3",
+    "name": "Building Momentum",
+    "description": "Maintained a 3-day learning streak",
+    "icon": "Flame",
+    "requirement": {
+      "type": "streak",
+      "value": 3
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "streak_7",
+    "name": "Week Warrior",
+    "description": "Maintained a 7-day learning streak",
+    "icon": "Zap",
+    "requirement": {
+      "type": "streak",
+      "value": 7
+    },
+    "rarity": "uncommon"
+  },
+  {
+    "id": "streak_30",
+    "name": "Habit Master",
+    "description": "Maintained a 30-day learning streak",
+    "icon": "Trophy",
+    "requirement": {
+      "type": "streak",
+      "value": 30
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "productivity_starter",
+    "name": "Productivity Pro",
+    "description": "Completed your first productivity lesson",
+    "icon": "Briefcase",
+    "requirement": {
+      "type": "category_complete",
+      "value": "productivity"
+    },
+    "rarity": "common"
+  },
+  {
+    "id": "communication_champion",
+    "name": "Communication Champion",
+    "description": "Mastered all communication lessons",
+    "icon": "MessageSquare",
+    "requirement": {
+      "type": "category_complete",
+      "value": "communication"
+    },
+    "rarity": "uncommon"
+  },
+  {
+    "id": "nutrition_ninja",
+    "name": "Nutrition Ninja",
+    "description": "Completed all nutrition lessons",
+    "icon": "Apple",
+    "requirement": {
+      "type": "category_complete",
+      "value": "nutrition"
+    },
+    "rarity": "uncommon"
+  },
+  {
+    "id": "investment_guru",
+    "name": "Investment Guru",
+    "description": "Mastered all investing lessons",
+    "icon": "TrendingUp",
+    "requirement": {
+      "type": "category_complete",
+      "value": "investing"
+    },
+    "rarity": "uncommon"
+  },
+  {
+    "id": "level_5",
+    "name": "Rising Star",
+    "description": "Reached level 5",
+    "icon": "Star",
+    "requirement": {
+      "type": "level_reached",
+      "value": 5
+    },
+    "rarity": "uncommon"
+  },
+  {
+    "id": "level_10",
+    "name": "Knowledge Seeker",
+    "description": "Reached level 10",
+    "icon": "Crown",
+    "requirement": {
+      "type": "level_reached",
+      "value": 10
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "xp_5000",
+    "name": "XP Collector",
+    "description": "Earned 5,000 total XP",
+    "icon": "Gem",
+    "requirement": {
+      "type": "xp_earned",
+      "value": 5000
+    },
+    "rarity": "rare"
+  },
+  {
+    "id": "completionist",
+    "name": "Completionist",
+    "description": "Completed 20 lessons",
+    "icon": "CheckSquare",
+    "requirement": {
+      "type": "lessons_completed",
+      "value": 20
+    },
+    "rarity": "epic"
+  }
+]
