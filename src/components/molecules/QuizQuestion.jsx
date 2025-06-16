@@ -9,8 +9,35 @@ const QuizQuestion = ({
   isCorrect = false,
   className = ''
 }) => {
+  const isScenario = question.type === 'scenario'
+  
   return (
     <div className={`bg-white rounded-xl p-6 shadow-sm border border-surface-200 ${className}`}>
+      {isScenario && (
+        <div className="mb-6">
+          <div className="flex items-center space-x-2 mb-3">
+            <ApperIcon name="Users" size={20} className="text-primary" />
+            <h4 className="font-display font-semibold text-primary text-sm uppercase tracking-wide">
+              {question.title}
+            </h4>
+          </div>
+          
+          <div className="bg-surface-50 rounded-lg p-4 mb-4">
+            <p className="text-surface-700 text-sm leading-relaxed break-words">
+              <span className="font-medium text-surface-900">Context: </span>
+              {question.context}
+            </p>
+          </div>
+          
+          <div className="bg-gradient-to-r from-primary/5 to-secondary/5 rounded-lg p-4 mb-4 border-l-4 border-primary">
+            <p className="text-surface-800 leading-relaxed break-words">
+              <span className="font-medium text-surface-900">Situation: </span>
+              {question.scenario}
+            </p>
+          </div>
+        </div>
+      )}
+      
       <h3 className="font-display font-semibold text-surface-900 text-lg mb-6 break-words">
         {question.question}
       </h3>
@@ -55,7 +82,16 @@ const QuizQuestion = ({
               transition={{ delay: index * 0.1 }}
             >
               <span className={`font-medium break-words ${textStyle}`}>
-                {option}
+                {isScenario ? (
+                  <span>
+                    <span className="font-semibold text-xs uppercase tracking-wide opacity-70 block mb-1">
+                      Option {String.fromCharCode(65 + index)}
+                    </span>
+                    {option}
+                  </span>
+                ) : (
+                  option
+                )}
               </span>
               
               {showResult && iconName && (
@@ -79,9 +115,14 @@ const QuizQuestion = ({
         >
           <div className="flex items-start space-x-2">
             <ApperIcon name="Info" size={16} className="text-info mt-0.5 flex-shrink-0" />
-            <p className="text-sm text-surface-700 break-words">
-              {question.explanation}
-            </p>
+            <div>
+              <p className="text-sm font-medium text-surface-900 mb-1">
+                {isScenario ? 'Decision Analysis' : 'Explanation'}
+              </p>
+              <p className="text-sm text-surface-700 break-words">
+                {question.explanation}
+              </p>
+            </div>
           </div>
         </motion.div>
       )}

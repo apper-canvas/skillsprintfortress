@@ -6,6 +6,7 @@
     "questions": [
       {
         "id": "q1",
+        "type": "multiple-choice",
         "question": "According to the 2-minute rule, what should you do with tasks that take less than 2 minutes?",
         "options": [
           "Add them to your to-do list for later",
@@ -18,18 +19,23 @@
       },
       {
         "id": "q2",
-        "question": "Which of these is NOT a good example of applying the 2-minute rule?",
+        "type": "scenario",
+        "title": "Morning Email Scenario",
+        "context": "You've just arrived at work and opened your email inbox. You have 47 unread emails and a team meeting in 30 minutes.",
+        "scenario": "Among your emails, you notice: a quick reply needed for a colleague's question (2 minutes), a complex project proposal that requires analysis (45 minutes), and a simple expense report approval (90 seconds).",
+        "question": "Following the 2-minute rule, what should you do first?",
         "options": [
-          "Replying to a simple email",
-          "Writing a detailed project proposal",
-          "Filing a document",
-          "Making a quick phone call"
+          "Start with the complex project proposal since it's most important",
+          "Handle the quick reply and expense approval immediately, then prepare for the meeting",
+          "Save all emails for after the meeting to give them proper attention",
+          "Delegate the expense approval and focus on the project proposal"
         ],
         "correctAnswer": 1,
-        "explanation": "Writing a detailed project proposal would take much longer than 2 minutes, so it doesn't qualify for the 2-minute rule."
+        "explanation": "The 2-minute rule suggests handling quick tasks immediately. Both the reply (2 min) and approval (90 sec) should be done right away, leaving you organized for the meeting while the complex proposal can be scheduled for later."
       },
       {
         "id": "q3",
+        "type": "multiple-choice",
         "question": "What is the main benefit of following the 2-minute rule?",
         "options": [
           "It helps you work faster",
@@ -49,10 +55,11 @@
     "questions": [
       {
         "id": "q1",
+        "type": "multiple-choice",
         "question": "What is time blocking?",
         "options": [
           "Avoiding distractions during work",
-          "Scheduling specific time slots for different activities",
+          "Scheduling specific time slots for different activities", 
           "Working in short bursts with breaks",
           "Blocking out interruptions"
         ],
@@ -61,18 +68,23 @@
       },
       {
         "id": "q2",
-        "question": "When should you schedule your most demanding tasks?",
+        "type": "scenario", 
+        "title": "Weekly Planning Challenge",
+        "context": "You're planning your work week and have identified your peak energy hours are 9-11 AM. You have several tasks to schedule.",
+        "scenario": "Your tasks include: writing a strategic report (requires deep focus, 3 hours), attending routine team meetings (low energy required), responding to emails (moderate focus), and creative brainstorming for a new project (high energy needed).",
+        "question": "How should you structure your 9-11 AM time blocks this week?",
         "options": [
-          "At the end of the day",
-          "During lunch breaks",
-          "During your peak energy hours",
-          "First thing in the morning always"
+          "Schedule routine meetings since they're easier to handle when you're fresh",
+          "Block this time for strategic report writing and creative brainstorming",
+          "Use this time for email responses to clear your inbox",
+          "Keep this time flexible for whatever seems urgent each day"
         ],
-        "correctAnswer": 2,
-        "explanation": "You should schedule demanding tasks during your peak energy hours when you can perform at your best."
+        "correctAnswer": 1,
+        "explanation": "Peak energy hours should be reserved for your most demanding tasks that require deep focus and creativity. Strategic work and brainstorming are perfect for when your mental energy is highest."
       },
       {
         "id": "q3",
+        "type": "multiple-choice",
         "question": "Why should you include buffer time between time blocks?",
         "options": [
           "To have time for social media",
@@ -92,6 +104,7 @@
     "questions": [
       {
         "id": "q1",
+        "type": "multiple-choice",
         "question": "What is the most important aspect of active listening?",
         "options": [
           "Thinking about your response while they talk",
@@ -104,18 +117,23 @@
       },
       {
         "id": "q2",
-        "question": "Which technique helps confirm you understood the speaker correctly?",
+        "type": "scenario",
+        "title": "Difficult Conversation at Work",
+        "context": "Your teammate Sarah approaches you looking frustrated. She says: 'I feel like my ideas are never heard in our team meetings. Every time I suggest something, it gets overlooked or someone else gets credit for a similar idea later.'",
+        "scenario": "Sarah is clearly upset and needs to feel heard. You want to practice active listening to understand her perspective and help her feel supported.",
+        "question": "What's the best active listening response?",
         "options": [
-          "Interrupting with questions",
-          "Paraphrasing what you heard",
-          "Agreeing with everything they say",
-          "Changing the subject"
+          "That's terrible! You should definitely talk to our manager about this right away.",
+          "I hear that you're feeling frustrated because your contributions aren't being recognized in meetings. Can you tell me more about what that experience is like for you?",
+          "Oh, I'm sure people do hear your ideas. Maybe you just need to speak up more confidently.",
+          "Have you tried writing your ideas down before meetings? That might help you present them better."
         ],
         "correctAnswer": 1,
-        "explanation": "Paraphrasing what you've heard back to the speaker helps confirm your understanding and shows you were listening."
+        "explanation": "This response demonstrates active listening by paraphrasing what Sarah shared, acknowledging her emotions, and asking an open-ended question to encourage her to share more. It shows you're fully engaged and focused on understanding her experience."
       },
       {
         "id": "q3",
+        "type": "multiple-choice",
         "question": "What should you do with distractions during a conversation?",
         "options": [
           "Check them quickly without the speaker noticing",
@@ -135,6 +153,7 @@
     "questions": [
       {
         "id": "q1",
+        "type": "multiple-choice",
         "question": "How much time can meal prep typically save per week?",
         "options": [
           "30 minutes",
@@ -147,18 +166,23 @@
       },
       {
         "id": "q2",
-        "question": "What's the best way to start meal prepping if you're a beginner?",
+        "type": "scenario",
+        "title": "Sunday Meal Prep Dilemma",
+        "context": "It's Sunday afternoon and you want to start meal prepping, but you're feeling overwhelmed. You work long hours during the week and often end up ordering takeout because you're too tired to cook.",
+        "scenario": "You have 3 hours available today. You're considering: prepping all breakfast, lunch, and dinner for the entire week; preparing just lunches for 5 days; or cooking a big batch of one versatile ingredient you can use in different ways.",
+        "question": "What's the best approach for a meal prep beginner?",
         "options": [
-          "Prep all meals for the entire week",
-          "Start with just one meal type for a few days",
-          "Only prep snacks",
-          "Prep for a full month"
+          "Prep all meals for the week to maximize your Sunday effort",
+          "Focus on preparing just lunches for the work week",
+          "Cook one big batch meal like chili that you can eat all week",
+          "Prep ingredients but not complete meals to maintain flexibility"
         ],
         "correctAnswer": 1,
-        "explanation": "Beginners should start small by prepping just lunch or dinner for a few days to build the habit without feeling overwhelmed."
+        "explanation": "For beginners, focusing on one meal type (like lunches) is more manageable and sustainable. It provides immediate weekday relief without the overwhelm of prepping everything, helping you build the habit successfully."
       },
       {
         "id": "q3",
+        "type": "multiple-choice",
         "question": "What's a key benefit of preparing components rather than complete meals?",
         "options": [
           "It takes less time",
@@ -178,6 +202,7 @@
     "questions": [
       {
         "id": "q1",
+        "type": "multiple-choice",
         "question": "What makes compound interest so powerful?",
         "options": [
           "You earn interest on your initial investment only",
@@ -190,18 +215,23 @@
       },
       {
         "id": "q2",
-        "question": "In the example given, how much more money does someone have by starting to invest at 25 vs. 35?",
+        "type": "scenario",
+        "title": "Investment Decision at 30",
+        "context": "Alex is 30 years old and just got a promotion with a $200/month salary increase. They're debt-free and have a 6-month emergency fund saved up.",
+        "scenario": "Alex is considering three options: investing the extra $200/month in a retirement account, saving it in a high-yield savings account for a house down payment in 5 years, or using it to increase their lifestyle (dining out, entertainment, etc.).",
+        "question": "From a compound interest perspective, what would be the most financially beneficial long-term choice?",
         "options": [
-          "$500,000",
-          "$690,000",
-          "$1 million",
-          "$200,000"
+          "Save in high-yield savings for the house down payment",
+          "Invest in retirement account to maximize compound growth over 35+ years",
+          "Use it for lifestyle improvements to enjoy life now",
+          "Split it equally between savings and lifestyle improvements"
         ],
         "correctAnswer": 1,
-        "explanation": "Starting at age 25 results in $1.3M vs. $610K at age 35 - a difference of $690,000 from just 10 extra years of compound growth."
+        "explanation": "With 35+ years until retirement, investing in a retirement account gives compound interest the maximum time to work. Even small amounts invested consistently over decades can grow to substantial sums due to compounding returns."
       },
       {
         "id": "q3",
+        "type": "multiple-choice",
         "question": "What is the most important factor in maximizing compound interest?",
         "options": [
           "Investing large amounts",

@@ -358,9 +358,10 @@ const Quiz = () => {
     )
   }
   
-  const currentQuestionData = quiz.questions[currentQuestion]
+const currentQuestionData = quiz.questions[currentQuestion]
   const progress = ((currentQuestion + 1) / quiz.questions.length) * 100
   const allQuestionsAnswered = answers.every(answer => answer !== null)
+  const isScenarioQuiz = quiz.questions.some(q => q.type === 'scenario')
   
   return (
     <div className="min-h-screen bg-surface-50">
@@ -383,10 +384,10 @@ const Quiz = () => {
             
             <div>
               <h1 className="font-display font-bold text-xl text-surface-900">
-                Knowledge Check
+                {isScenarioQuiz ? 'Challenge Scenarios' : 'Knowledge Check'}
               </h1>
               <p className="text-sm text-surface-600">
-                Question {currentQuestion + 1} of {quiz.questions.length}
+                {currentQuestionData.type === 'scenario' ? 'Scenario' : 'Question'} {currentQuestion + 1} of {quiz.questions.length}
               </p>
             </div>
           </div>
